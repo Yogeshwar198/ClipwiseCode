@@ -3,7 +3,7 @@ import Navbar from './components/Navbar'
 import Hero from './components/Hero'
 import Allproduct from './components/Allproduct'
 import Bestprice from './components/Bestprice'
-import Footer from './components/footer'
+import Footer from './components/Footer'
 
 
 const App = () => {
