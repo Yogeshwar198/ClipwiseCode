@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+* {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-variation-settings:
+    "width" 100;
+}
+
+.newLot {
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+
+
+.clip-pie {
+  clip-path: polygon(100% 50%, 100% 0%, 100% 50%, 100% 100%, 0% 100%, 0% 50%);
+}
+
